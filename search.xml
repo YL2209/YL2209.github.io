@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>测试独立背景</title>
+      <link href="/posts/9b531f7b/"/>
+      <url>/posts/9b531f7b/</url>
+      
+        <content type="html"><![CDATA[<div class='wow animate__heartBeat' data-wow-duration='' data-wow-delay='5s' data-wow-offset=''  data-wow-iteration='10' ><div class="note red icon modern"><i class="note-icon fas fa-battery-half"></i><p><code>heartBeat</code>动画效果，延时<code>5s</code>，重复<code>10</code>次。</p></div></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown快速入门小技巧(hexo博客文章--格式用法)</title>
+      <link href="/posts/15546/"/>
+      <url>/posts/15546/</url>
+      
+        <content type="html"><![CDATA[<p>相遇皆是缘分</p><h1>Markdown 的快速入门(后缀是  .md)</h1><h2 id="快捷键">快捷键</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ctrl+shift+1 大纲显示</span><br><span class="line">ctrl+/ 源代码显示</span><br></pre></td></tr></table></figure><h2 id="代码块：">代码块：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">​```java(html等等)   会自动提示</span><br></pre></td></tr></table></figure><h2 id="标题">标题</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#标题1 （大）</span><br><span class="line">##标题2</span><br><span class="line">###标题3</span><br><span class="line">####标题4 （小）</span><br><span class="line">以此类推 最高标题6</span><br></pre></td></tr></table></figure><h2 id="加粗">加粗</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//加粗</span></span><br><span class="line">**加粗**</span><br><span class="line"><span class="comment">//代码高亮显示</span></span><br><span class="line">==高亮==</span><br><span class="line"><span class="comment">//删除线</span></span><br><span class="line">~~删除线~~</span><br><span class="line"><span class="comment">//斜体</span></span><br><span class="line">  *斜体内容*</span><br></pre></td></tr></table></figure><p><strong>加粗</strong><br>==高亮==<br><s>删除线</s><br><em>斜体内容</em></p><h2 id="引用：">引用：</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//引用语法</span></span><br><span class="line">&gt;作者：泽</span><br><span class="line">&gt;&gt;作者：泽</span><br><span class="line">&gt;&gt;&gt;作者：泽</span><br></pre></td></tr></table></figure><blockquote><p>作者：泽</p><blockquote><p>作者：泽</p><blockquote><p>作者：泽</p></blockquote></blockquote></blockquote><h2 id="分割线">分割线</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//分割线</span></span><br><span class="line">---</span><br><span class="line">***</span><br></pre></td></tr></table></figure><h2 id="图片插入">图片插入</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//在线图片与本地图片</span></span><br><span class="line">![照片名子]（/image/me.png）</span><br></pre></td></tr></table></figure><p><img src= "https://gitee.com/yl3021027861/demo/raw/master/img/loading.gif" data-lazy-src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3252521864,872614242&amp;fm=26&amp;gp=0.jpg" alt="img"></p><h2 id="超链接">超链接</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//超链接语法</span></span><br><span class="line">[超链接名字]（https:<span class="comment">//gihub.com/yerenping）</span></span><br></pre></td></tr></table></figure><p><a href="https://music.163.com/#/song?id=28892408&amp;market=baiduqk">我的天空</a></p><h2 id="列表">列表</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//无需列表</span></span><br><span class="line">- 目录<span class="number">1</span>  -后加空格</span><br><span class="line">- 目录<span class="number">2</span></span><br><span class="line">- 目录<span class="number">3</span></span><br><span class="line"><span class="comment">//有序列表</span></span><br><span class="line">  <span class="number">1</span>+. +名称</span><br></pre></td></tr></table></figure><h2 id="表格">表格</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">右键》插入》表格</span><br><span class="line">用代码过于复杂不推荐使用</span><br></pre></td></tr></table></figure><table><thead><tr><th style="text-align:center">姓名</th><th style="text-align:center">数字</th><th style="text-align:center">语文</th></tr></thead><tbody><tr><td style="text-align:center">小王</td><td style="text-align:center">85</td><td style="text-align:center">21</td></tr><tr><td style="text-align:center"></td><td style="text-align:center"></td><td style="text-align:center"></td></tr><tr><td style="text-align:center"></td><td style="text-align:center"></td><td style="text-align:center"></td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活杂碎 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>地图引用</title>
+      <link href="/posts/fcb4de90/"/>
+      <url>/posts/fcb4de90/</url>
+      
+        <content type="html"><![CDATA[<div class="tip warning faa-horizontal animated"><p>warning</p></div><div class="tip ban faa-flash animated"><p>ban</p></div><div class="tip warning faa-horizontal animated faa-fast"><p>warning</p></div><div class="tip ban faa-flash animated faa-slow"><p>ban</p></div><div class="tip warning faa-horizontal animated-hover"><p>warning</p></div><div class="tip ban faa-flash animated-hover"><p>ban</p></div><div class="tip warning faa-horizontal animated-hover"><p>warning</p></div><div class="tip ban faa-flash animated-hover"><p>ban</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/posts/4a17b156/"/>
+      <url>/posts/4a17b156/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到<a href="https://hexo.io/">Hexo</a>! 这是你的第一篇文章。检查<a href="https://hexo.io/docs/">文件</a>更多信息。如果您在使用Hexo时遇到任何问题，可以在<a href="https://hexo.io/docs/troubleshooting.html">故障排除</a>中找到答案或者你可以在<a href="https://github.com/hexojs/hexo/issues">GitHub</a>上问我.</p><h2 id="快速启动">快速启动</h2><h3 id="创建新帖子">创建新帖子</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/docs/writing.html">写作</a></p><h3 id="运行服务器">运行服务器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/docs/server.html">服务器</a></p><h3 id="生成静态文件">生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/docs/generating.html">正在生成</a></p><h3 id="部署到远程站点">部署到远程站点</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>更多信息：<a href="https://hexo.io/docs/one-command-deployment.html">部署</a></p><hr><h1>视频演示</h1><h2 id="《你的名字》-MV">《你的名字》 MV</h2><head> <iframe src="//player.bilibili.com/player.html?aid=591370657&bvid=BV1iq4y1R7sd&cid=431992420&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100% height=700> </iframe></head><hr><h1>图片演示</h1><p><img src= "https://gitee.com/yl3021027861/demo/raw/master/img/loading.gif" data-lazy-src="https://i.loli.net/2021/10/30/vQj93ER2C1ynfet.jpg" alt="图片名字八个字"></p><hr><h1>代码演示</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">a</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;hello world&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>给博客添加B站同款动态banner</title>
+      <link href="/posts/780a2cea/"/>
+      <url>/posts/780a2cea/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习分享 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
