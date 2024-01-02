@@ -1,3 +1,4 @@
+https://www.naokuo.top/album/
 https://www.naokuo.top/posts/157b46af/
 https://www.naokuo.top/link/
 https://www.naokuo.top/posts/2b609159/
@@ -19,7 +20,6 @@ https://www.naokuo.top/comments/
 https://www.naokuo.top/statistics/
 https://www.naokuo.top/games/
 https://www.naokuo.top/todolist/
-https://www.naokuo.top/album/
 https://www.naokuo.top/posts/e028a9b8/
 https://www.naokuo.top/essay/
 https://www.naokuo.top/json/music.json
