@@ -6,7 +6,7 @@
   <link href="https://www.naokuo.top/atom.xml" rel="self"/>
   
   <link href="https://www.naokuo.top/"/>
-  <updated>2024-01-04T13:33:25.138Z</updated>
+  <updated>2024-01-04T14:03:18.262Z</updated>
   <id>https://www.naokuo.top/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>给博客添加定位个性欢迎</title>
+    <link href="https://www.naokuo.top/posts/a83f8302/"/>
+    <id>https://www.naokuo.top/posts/a83f8302/</id>
+    <published>2024-01-04T13:41:00.000Z</published>
+    <updated>2024-01-04T14:03:18.262Z</updated>
+    
+    
+    <summary type="html">给博客添加定位个性欢迎</summary>
+    
+    
+    
+    <category term="杂谈教程" scheme="https://www.naokuo.top/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="hexo" scheme="https://www.naokuo.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>留言板页添加全屏弹幕</title>
     <link href="https://www.naokuo.top/posts/1f0e455d/"/>
     <id>https://www.naokuo.top/posts/1f0e455d/</id>
     <published>2024-01-04T13:00:40.000Z</published>
-    <updated>2024-01-04T13:33:25.138Z</updated>
+    <updated>2024-01-04T13:35:38.574Z</updated>
     
     
     <summary type="html">留言板页添加全屏弹幕</summary>
