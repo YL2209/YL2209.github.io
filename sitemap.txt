@@ -1,3 +1,7 @@
+https://www.naokuo.top/comments/
+https://www.naokuo.top/album/
+https://www.naokuo.top/posts/654e9f64
+https://www.naokuo.top/posts/336fb21e
 https://www.naokuo.top/link/
 https://www.naokuo.top/websites/
 https://www.naokuo.top/friend.json
@@ -18,7 +22,6 @@ https://www.naokuo.top/posts/a83f8302
 https://www.naokuo.top/posts/26ea2038
 https://www.naokuo.top/posts/157b46af
 https://www.naokuo.top/tags/
-https://www.naokuo.top/album/
 https://www.naokuo.top/posts/2b609159
 https://www.naokuo.top/posts/afcbc60d
 https://www.naokuo.top/posts/5586039c
@@ -29,10 +32,8 @@ https://www.naokuo.top/posts/f90dc6bd
 https://www.naokuo.top/copyright/
 https://www.naokuo.top/posts/7d73fc91
 https://www.naokuo.top/posts/eda3c704
-https://www.naokuo.top/posts/336fb21e
 https://www.naokuo.top/posts/6eded1ff
 https://www.naokuo.top/posts/21b92ee5
-https://www.naokuo.top/comments/
 https://www.naokuo.top/statistics/
 https://www.naokuo.top/games/
 https://www.naokuo.top/todolist/
@@ -50,11 +51,13 @@ https://www.naokuo.top/album/dailyPhoto/
 https://www.naokuo.top/PDF/confidence-band.json
 https://www.naokuo.top/manifest.json
 https://www.naokuo.top/
+https://www.naokuo.top/tags/AI/
 https://www.naokuo.top/tags/%E4%B8%BB%E9%A2%98/
 https://www.naokuo.top/tags/%E5%89%8D%E7%AB%AF/
 https://www.naokuo.top/tags/%E5%8D%9A%E5%AE%A2/
 https://www.naokuo.top/tags/%E5%AD%A6%E4%B9%A0/
 https://www.naokuo.top/tags/%E5%B7%A5%E5%85%B7/
+https://www.naokuo.top/tags/AI%E7%BB%98%E7%94%BB/
 https://www.naokuo.top/tags/hexo/
 https://www.naokuo.top/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/
 https://www.naokuo.top/tags/Anzhiyu/

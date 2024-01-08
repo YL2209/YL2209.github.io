@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.naokuo.top/comments/</loc>
+    
+    <lastmod>2024-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naokuo.top/album/</loc>
+    
+    <lastmod>2024-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naokuo.top/posts/654e9f64</loc>
+    
+    <lastmod>2024-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naokuo.top/posts/336fb21e</loc>
+    
+    <lastmod>2024-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.naokuo.top/link/</loc>
     
     <lastmod>2024-01-08</lastmod>
@@ -182,15 +218,6 @@
   </url>
   
   <url>
-    <loc>https://www.naokuo.top/album/</loc>
-    
-    <lastmod>2024-01-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.naokuo.top/posts/2b609159</loc>
     
     <lastmod>2024-01-01</lastmod>
@@ -281,15 +308,6 @@
   </url>
   
   <url>
-    <loc>https://www.naokuo.top/posts/336fb21e</loc>
-    
-    <lastmod>2023-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.naokuo.top/posts/6eded1ff</loc>
     
     <lastmod>2023-12-27</lastmod>
@@ -302,15 +320,6 @@
     <loc>https://www.naokuo.top/posts/21b92ee5</loc>
     
     <lastmod>2023-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.naokuo.top/comments/</loc>
-    
-    <lastmod>2023-12-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -470,6 +479,13 @@
 
   
   <url>
+    <loc>https://www.naokuo.top/tags/AI/</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.naokuo.top/tags/%E4%B8%BB%E9%A2%98/</loc>
     <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -499,6 +515,13 @@
   
   <url>
     <loc>https://www.naokuo.top/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2024-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naokuo.top/tags/AI%E7%BB%98%E7%94%BB/</loc>
     <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
