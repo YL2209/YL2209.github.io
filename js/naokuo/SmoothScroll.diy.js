@@ -1,1 +1,0 @@
-window.SmoothScrollOptions={frameRate:150,animationTime:400,stepSize:100,pulseAlgorithm:!0,pulseScale:4,pulseNormalize:1,accelerationDelta:50,accelerationMax:3,keyboardSupport:!0,arrowScroll:50,ouchpadSupport:!0,fixedBackground:!0,excluded:""};
