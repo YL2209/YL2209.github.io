@@ -6,7 +6,7 @@
   <link href="https://www.naokuo.top/atom.xml" rel="self"/>
   
   <link href="https://www.naokuo.top/"/>
-  <updated>2024-01-14T04:57:00.903Z</updated>
+  <updated>2024-01-15T14:24:43.808Z</updated>
   <id>https://www.naokuo.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>分享一下本站的SW.js配置</title>
+    <link href="https://www.naokuo.top/posts/efe051cd"/>
+    <id>https://www.naokuo.top/posts/efe051cd</id>
+    <published>2024-01-15T14:17:40.000Z</published>
+    <updated>2024-01-15T14:24:43.808Z</updated>
+    
+    
+    <summary type="html">分享一下本站的SW.js配置</summary>
+    
+    
+    
+    <category term="学习分享" scheme="https://www.naokuo.top/categories/%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="hexo" scheme="https://www.naokuo.top/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Color-Thief获取图片主色并增加安知鱼主题文章主色调本地模式</title>
@@ -407,25 +426,6 @@
     
     
     <summary type="html">文章引用外挂标签实在是太麻烦,而且有时候还不记得,于是就有了这篇文章</summary>
-    
-    
-    
-    <category term="学习分享" scheme="https://www.naokuo.top/categories/%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="hexo" scheme="https://www.naokuo.top/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>中文版外挂标签</title>
-    <link href="https://www.naokuo.top/posts/7d73fc91"/>
-    <id>https://www.naokuo.top/posts/7d73fc91</id>
-    <published>2023-11-18T05:55:43.000Z</published>
-    <updated>2023-12-27T14:24:24.582Z</updated>
-    
-    
-    <summary type="html">中文版外挂标签</summary>
     
     
     
