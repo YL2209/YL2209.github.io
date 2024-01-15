@@ -1,10 +1,12 @@
-https://www.naokuo.top/posts/a83f8302
+https://www.naokuo.top/todolist/
+https://www.naokuo.top/statistics/
+https://www.naokuo.top/comments/
+https://www.naokuo.top/album/
 https://www.naokuo.top/link/
+https://www.naokuo.top/posts/a83f8302
 https://www.naokuo.top/posts/f96b9780
 https://www.naokuo.top/posts/f3635009
 https://www.naokuo.top/cookies/
-https://www.naokuo.top/comments/
-https://www.naokuo.top/album/
 https://www.naokuo.top/posts/654e9f64
 https://www.naokuo.top/posts/336fb21e
 https://www.naokuo.top/websites/
@@ -35,9 +37,7 @@ https://www.naokuo.top/posts/7d73fc91
 https://www.naokuo.top/posts/eda3c704
 https://www.naokuo.top/posts/6eded1ff
 https://www.naokuo.top/posts/21b92ee5
-https://www.naokuo.top/statistics/
 https://www.naokuo.top/games/
-https://www.naokuo.top/todolist/
 https://www.naokuo.top/posts/e028a9b8
 https://www.naokuo.top/essay/
 https://www.naokuo.top/json/music.json
@@ -49,7 +49,6 @@ https://www.naokuo.top/album/wallpaper/
 https://www.naokuo.top/album/mywallpaper/
 https://www.naokuo.top/album/wordScenery/
 https://www.naokuo.top/album/dailyPhoto/
-https://www.naokuo.top/PDF/confidence-band.json
 https://www.naokuo.top/manifest.json
 https://www.naokuo.top/
 https://www.naokuo.top/tags/AI/
