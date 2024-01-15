@@ -1,3 +1,4 @@
+https://www.naokuo.top/posts/26ea2038
 https://www.naokuo.top/todolist/
 https://www.naokuo.top/statistics/
 https://www.naokuo.top/comments/
@@ -23,7 +24,6 @@ https://www.naokuo.top/posts/53f4b2e3
 https://www.naokuo.top/posts/2efcfd69
 https://www.naokuo.top/posts/1eea11b1
 https://www.naokuo.top/posts/1f0e455d
-https://www.naokuo.top/posts/26ea2038
 https://www.naokuo.top/posts/157b46af
 https://www.naokuo.top/tags/
 https://www.naokuo.top/posts/2b609159
@@ -63,6 +63,7 @@ https://www.naokuo.top/tags/AI%E7%BB%98%E7%94%BB/
 https://www.naokuo.top/tags/hexo/
 https://www.naokuo.top/tags/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/
 https://www.naokuo.top/tags/Anzhiyu/
+https://www.naokuo.top/tags/password/
 https://www.naokuo.top/categories/%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB/
 https://www.naokuo.top/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/
 https://www.naokuo.top/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E7%A2%8E/
