@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.naokuo.top/posts/afcbc60d</loc>
+    
+    <lastmod>2024-01-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.naokuo.top/posts/93776a54</loc>
     
     <lastmod>2024-01-16</lastmod>
@@ -275,15 +284,6 @@
     <loc>https://www.naokuo.top/tags/</loc>
     
     <lastmod>2024-01-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.naokuo.top/posts/afcbc60d</loc>
-    
-    <lastmod>2024-01-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
