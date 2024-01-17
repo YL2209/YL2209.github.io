@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.naokuo.top/json/images_videos.json</loc>
+    
+    <lastmod>2024-01-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.naokuo.top/posts/cbc4c0d7</loc>
+    
+    <lastmod>2024-01-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.naokuo.top/posts/afcbc60d</loc>
     
     <lastmod>2024-01-16</lastmod>
@@ -39,15 +57,6 @@
   
   <url>
     <loc>https://www.naokuo.top/posts/2b609159</loc>
-    
-    <lastmod>2024-01-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.naokuo.top/posts/cbc4c0d7</loc>
     
     <lastmod>2024-01-16</lastmod>
     
