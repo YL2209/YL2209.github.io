@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.naokuo.top/link/</loc>
+    
+    <lastmod>2024-01-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.naokuo.top/posts/eda3c704</loc>
     
     <lastmod>2024-01-18</lastmod>
@@ -138,15 +147,6 @@
   
   <url>
     <loc>https://www.naokuo.top/album/</loc>
-    
-    <lastmod>2024-01-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.naokuo.top/link/</loc>
     
     <lastmod>2024-01-15</lastmod>
     
