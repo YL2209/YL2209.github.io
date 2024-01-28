@@ -6,7 +6,7 @@
   <link href="https://www.naokuo.top/atom.xml" rel="self"/>
   
   <link href="https://www.naokuo.top/"/>
-  <updated>2024-01-28T09:38:58.250Z</updated>
+  <updated>2024-01-28T09:45:58.361Z</updated>
   <id>https://www.naokuo.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.naokuo.top/posts/2145b5e0"/>
     <id>https://www.naokuo.top/posts/2145b5e0</id>
     <published>2024-01-28T06:22:36.000Z</published>
-    <updated>2024-01-28T09:38:58.250Z</updated>
+    <updated>2024-01-28T09:45:58.361Z</updated>
     
     <content type="html"><![CDATA[<ul><li>最近正苦于文章封面怎样制作时，我想到了用PowerPoint制作文章封面</li><li>接下来试用PowerPoint制作文章封面</li></ul><ol><li>新建空白PPT</li><li>鼠标 <kbd>右键</kbd> <code>设置背景格式（B）</code><br><img src="https://bu.dusays.com/2024/01/28/65b5fb60e803e.png" alt="屏幕截图 2024-01-28 142829.png"></li><li>选择填充方式，我这里选择图片填充<br><img src="https://bu.dusays.com/2024/01/28/65b5fc1ec8ce3.png" alt="屏幕截图 2024-01-28 142850.png"></li><li>可以根据自己喜好设置背景效果，我这里选择背景模糊20<br><img src="https://bu.dusays.com/2024/01/28/65b5fcaa9662b.png" alt="屏幕截图 2024-01-28 142907.png"></li><li>插入一张前置图片，然后剪切需要的尺寸<br><img src="https://bu.dusays.com/2024/01/28/65b5fd2b42495.png" alt="屏幕截图 2024-01-28 143031.png"></li><li>根据自己喜好调整图片。我这里添加阴影，然后调整位置居中<br><img src="https://bu.dusays.com/2024/01/28/65b5fd72f3b83.png" alt="屏幕截图 2024-01-28 143147.png"></li><li>插入文本框输入文字调整大小<code>96</code>、位置<code>居中</code>，打开<code>选择窗格</code>调整图层<code>最下层</code><br><img src="https://bu.dusays.com/2024/01/28/65b5fe0659132.png" alt="屏幕截图 2024-01-28 143231.png"><br><img src="https://bu.dusays.com/2024/01/28/65b5fe065c24a.png" alt="屏幕截图 2024-01-28 142948.png"><br><img src="https://bu.dusays.com/2024/01/28/65b5feb11035a.png" alt="屏幕截图 2024-01-28 151340.png"></li><li>导出<br><img src="https://bu.dusays.com/2024/01/28/65b5ff2c5f57c.png" alt="屏幕截图 2024-01-28 144247.png"></li></ol><h2 id="最终效果图"><a href="#最终效果图" class="headerlink" title="最终效果图"></a>最终效果图</h2><p><img src="https://bu.dusays.com/2024/01/28/65b5ff69b0f7a.png" alt="2145b5e0.png"></p>]]></content>
     
@@ -30,10 +30,14 @@
     
     
     
-    <category term="学习分享" scheme="https://www.naokuo.top/categories/%E5%AD%A6%E4%B9%A0%E5%88%86%E4%BA%AB/"/>
+    <category term="杂谈教程" scheme="https://www.naokuo.top/categories/%E6%9D%82%E8%B0%88%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="hexo" scheme="https://www.naokuo.top/tags/hexo/"/>
+    <category term="博客" scheme="https://www.naokuo.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="设计" scheme="https://www.naokuo.top/tags/%E8%AE%BE%E8%AE%A1/"/>
+    
+    <category term="文章封面" scheme="https://www.naokuo.top/tags/%E6%96%87%E7%AB%A0%E5%B0%81%E9%9D%A2/"/>
     
   </entry>
   
