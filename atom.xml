@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Naokuo</title>
+  <title>Nao</title>
   <icon>https://www.naokuo.top/img/pwa/favicon.ico</icon>
-  <subtitle>你好!</subtitle>
+  <subtitle>你好</subtitle>
   <link href="https://www.naokuo.top/atom.xml" rel="self"/>
   
   <link href="https://www.naokuo.top/"/>
