@@ -1,1 +1,0 @@
-const naokuo={intersectionObserver:function(e,n){new IntersectionObserver((function(o,r){o.forEach((o=>{o.isIntersecting&&(e?.(),r.unobserve(n))}))}),{root:null,rootMargin:"0px",threshold:.6}).observe(n)},resizeObserver:function(e,n,o=2e3){const r=new ResizeObserver((function(n,o){n.forEach((n=>{n.borderBoxSize&&e?.()}))}));setTimeout((function(){r.observe(n)}),o)}};
