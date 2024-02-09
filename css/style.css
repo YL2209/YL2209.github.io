@@ -7,7 +7,9 @@
   --naokuo-card-bg-none: rgba(255, 255, 255, 0);
   --white: #fff;
   --naokuo-bar-background: var(--naokuo-meta-theme-color);
-  --naokuo-theme: var(--naokuo-main)
+  --naokuo-theme: var(--naokuo-main);
+  --naokuo-lighttext: var(--naokuo-main);
+  --naokuo-white: var(--white);
 }
 
 [data-theme=light] {
@@ -177,6 +179,7 @@ body {
 .author {
   font-size: 4.5rem;
 }
+
 /* 一言 */
 .yiyan {
   font-size: 1.5rem;
