@@ -7,9 +7,6 @@
   --naokuo-card-bg-none: rgba(255, 255, 255, 0);
   --white: #fff;
   --naokuo-bar-background: var(--naokuo-meta-theme-color);
-  --naokuo-main: #0a6e65;
-  --naokuo-theme-op: #0a6e6523;
-  --naokuo-theme-op-deep: #0a6e65dd;
   --naokuo-theme: var(--naokuo-main)
 }
 
@@ -21,6 +18,9 @@
   --naokuo-secondbg: #f7f7f9;
   --naokuo-card-bg: #fffef9;
   --naokuo-meta-theme-color: #f7f9fe;
+  --naokuo-main: #0a6e65;
+  --naokuo-theme-op: #0a6e6523;
+  --naokuo-theme-op-deep: #0a6e65dd;
 }
 
 [data-theme=dark] {
@@ -31,6 +31,9 @@
   --naokuo-secondbg: #21232a;
   --naokuo-card-bg: #1d1e22;
   --naokuo-meta-theme-color: #000;
+  --naokuo-main: #f2b94b;
+  --naokuo-theme-op: #f2b94b23;
+  --naokuo-theme-op-deep: #f2b94bdd;
 }
 
 a {
