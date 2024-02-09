@@ -14,6 +14,7 @@
 }
 
 [data-theme=light] {
+  --global-bg: #f7f9fe;
   --naokuo-fontcolor: #363636;
   --naokuo-scrollbar: rgba(60, 60, 67, 0.4);
   --naokuo-secondtext: rgba(60, 60, 67, 0.8);
@@ -23,6 +24,7 @@
 }
 
 [data-theme=dark] {
+  --global-bg: #0d0d0d;
   --naokuo-fontcolor: #f7f7fa;
   --naokuo-scrollbar: rgba(200, 200, 223, 0.4);
   --naokuo-secondtext: #a1a2b8;
@@ -167,7 +169,7 @@ main {
 .yiyan {
   width: 50%;
   margin: 0 auto;
-  color: var(--naokuo-secondbg);
+  color: var(--white);
 }
 
 .author {
@@ -575,4 +577,23 @@ main {
     background: -ms-linear-gradient(270deg, var(--naokuo-background) 0, var(--naokuo-card-bg) 25%);
     background: linear-gradient(180deg, var(--naokuo-background) 0, var(--naokuo-card-bg) 25%)
   }
+}
+
+[data-theme=dark] #universe {
+  display: block;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1
+}
+
+canvas#universe {
+  display: none
 }
