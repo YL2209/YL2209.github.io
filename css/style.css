@@ -438,7 +438,7 @@ main {
   }
 }
 
-#footer-wrap #anzhiyu-footer {
+#footer-wrap #naokuo-footer {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -469,11 +469,11 @@ main {
   padding: 0 2rem
 }
 
-#footer-wrap #anzhiyu-footer .footer-group {
+#footer-wrap #naokuo-footer .footer-group {
   min-width: 120px
 }
 
-#footer-wrap #anzhiyu-footer .footer-group .footer-title-group {
+#footer-wrap #naokuo-footer .footer-group .footer-title-group {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -488,12 +488,12 @@ main {
   align-items: center
 }
 
-#footer-wrap #anzhiyu-footer .footer-group .footer-title-group a {
+#footer-wrap #naokuo-footer .footer-group .footer-title-group a {
   margin-left: 8px;
   line-height: 32px
 }
 
-#footer-wrap #anzhiyu-footer .footer-group .footer-title-group i {
+#footer-wrap #naokuo-footer .footer-group .footer-title-group i {
   line-height: 1;
   color: var(--naokuo-secondtext);
   -webkit-transition: .3s;
@@ -505,7 +505,7 @@ main {
   opacity: .6
 }
 
-#footer-wrap #anzhiyu-footer .footer-title {
+#footer-wrap #naokuo-footer .footer-title {
   color: var(--naokuo-secondtext);
   font-size: 1rem;
   text-align: left;
@@ -513,7 +513,7 @@ main {
   margin: 1rem 0
 }
 
-#footer-wrap #anzhiyu-footer .footer-links {
+#footer-wrap #naokuo-footer .footer-links {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -528,7 +528,7 @@ main {
   flex-direction: column
 }
 
-#footer-wrap #anzhiyu-footer .footer-item {
+#footer-wrap #naokuo-footer .footer-item {
   font-size: 1rem;
   line-height: 1rem;
   margin: 8px 0;
@@ -544,7 +544,7 @@ main {
   text-decoration: none
 }
 
-#footer-wrap #anzhiyu-footer .footer-item:hover {
+#footer-wrap #naokuo-footer .footer-item:hover {
   color: var(--naokuo-theme)
 }
 
