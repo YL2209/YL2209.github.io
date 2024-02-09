@@ -1,22 +1,11 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Naokuo的主页</title>
+  <title>Naokuo Home</title>
   <style type="text/css">
-    * {
-      margin: 0;
-      padding: 0;
-      transition: 0.7s;
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-
-    body {
-      background-color: #fffef9;
-    }
-
     video.Bg_Video {
       position: fixed;
       top: 0;
@@ -33,6 +22,8 @@
       height: 100vh;
       position: fixed;
       z-index: -999;
+      top: 0;
+      left: 0;
       overflow: hidden;
       display: block;
       -webkit-animation: naokuo_blur-to-clear 2.5s cubic-bezier(0.6, 0.25, 0.25, 1) 0s 1 backwards, naokuo_scale 2.2s cubic-bezier(0.6, 0.1, 0.25, 1) 0.5s 1 backwards;
@@ -178,16 +169,191 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.cbd.int/naokuo-blog-static@1.0.7/icon/iconfont.css">
 </head>
 
 <body>
+  <div id="body-wrap">
+    <header>
+      <div id="naokuo-home_bg">
+        <video class="Bg_Video" width="100%" height="100%" style="object-fit:cover;z-index:0" preload="auto" autoplay=""
+          loop="" muted="" playsinline="" webkit-playsinline="" x5-playsinline="" x5-video-player-type="h5"
+          x5-video-player-fullscreen="" x5-video-orientation="portraint" x-webkit-airplay="allow">
+          <source src="https://cdn.cbd.int/naokuo-media@1.0.3/MP4/2024-01-19_5.mp4" type="video/mp4">
+        </video>
+      </div>
+    </header>
 
-  <div id="naokuo-home_bg">
-    <video class="Bg_Video" width="100%" height="100%" style="object-fit:cover;z-index:0" preload="auto" autoplay=""
-      loop="" muted="" playsinline="" webkit-playsinline="" x5-playsinline="" x5-video-player-type="h5"
-      x5-video-player-fullscreen="" x5-video-orientation="portraint" x-webkit-airplay="allow">
-      <source src="https://cdn.cbd.int/naokuo-media@1.0.3/MP4/2024-01-19_5.mp4" type="video/mp4">
-    </video>
+    <main id="blog-container">
+      <div class="content">
+        <div class="author-avatar">
+          <img src="https://bu.dusays.com/2024/01/27/65b4c9bd4ad17.png" alt="avatar" class="avatar">
+        </div>
+
+        <div class="author">NaoKuo</div>
+        <div class="mingyan">
+          <span id="typed" class="">请给我来亿碗三鲜面</span>
+        </div>
+        <div class="social">
+          <ul>
+            <li>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <i class="naokuofont naokuo-icon-train"></i>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://gitee.com/" target="_blank" rel="noopener noreferrer">
+                <i class="naokuofont naokuo-icon-train"></i>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="mailto:naokuo2024@163.com">
+                <i class="naokuofont naokuo-icon-train"></i>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://www.naokuo.top" target="_blank" rel="noopener noreferrer">
+                <i class="naokuofont naokuo-icon-train"></i>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://space.bilibili.com/" target="_blank" rel="noopener noreferrer">
+                <i class="naokuofont naokuo-icon-train"></i>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://naokuo.top" target="_blank" rel="noopener noreferrer">
+                <i class="naokuofont naokuo-icon-train"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div id="footer-wrap">
+        <div id="footer_deal"><a class="deal_link" href="mailto:naokuo2024@163.com" rel="external nofollow noreferrer"
+            title="Email" draggable="false" data-pjax-state=""><i class="naokuofont naokuo-icon-envelope"></i></a><a
+            class="deal_link" href="/rss2.xml" title="RSS" draggable="false" data-pjax-state=""><i
+              class="naokuofont naokuo-icon-rss"></i></a><img class="footer_mini_logo entered loaded" title="返回顶部"
+            alt="返回顶部" onclick="anzhiyu.scrollToDest(0,500)" src="https://bu.dusays.com/2024/01/29/65b775f23039b.gif"
+            onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;"
+            data-lazy-src="https://bu.dusays.com/2024/01/29/65b775f23039b.gif" size="50px" data-ll-status="loaded"><a
+            class="deal_link" target="_blank" rel="noopener external nofollow noreferrer"
+            href="https://space.bilibili.com/359789531" title="BiliBili" draggable="false"><i
+              class="naokuofont naokuo-icon-bilibili"></i></a><a class="deal_link" href="/copyright" title="CC"
+            draggable="false" data-pjax-state=""><i class="naokuofont naokuo-icon-copyright-line"></i></a></div>
+        <div id="anzhiyu-footer">
+          <div class="footer-group">
+            <div class="footer-title">服务</div>
+            <div class="footer-links"><a class="footer-item" title="51la统计" target="_blank"
+                rel="noopener external nofollow noreferrer" href="https://v6.51.la/" draggable="false">51la统计</a><a
+                class="footer-item" title="十年之约" target="_blank" rel="noopener external nofollow noreferrer"
+                href="https://www.foreverblog.cn/" draggable="false">十年之约</a><a class="footer-item" title="Netlify"
+                target="_blank" rel="noopener external nofollow noreferrer" href="https://app.netlify.com/"
+                draggable="false">Netlify</a></div>
+          </div>
+          <div class="footer-group">
+            <div class="footer-title">关于</div>
+            <div class="footer-links"><a class="footer-item" title="关于本人" href="/about/" draggable="false"
+                data-pjax-state="">关于本人</a><a class="footer-item" title="我的装备" href="/equipment/" draggable="false"
+                data-pjax-state="">我的装备</a><a class="footer-item" title="更新日志" href="/update/" draggable="false"
+                data-pjax-state="">更新日志</a></div>
+          </div>
+          <div class="footer-group">
+            <div class="footer-title">导航</div>
+            <div class="footer-links"><a class="footer-item" title="即刻短文" href="/essay/" draggable="false"
+                data-pjax-state="">即刻短文</a><a class="footer-item" title="友人帐" href="/link/" draggable="false"
+                data-pjax-state="">友人帐</a><a class="footer-item" title="留言板" href="/comments/" draggable="false"
+                data-pjax-state="">留言板</a></div>
+          </div>
+          <div class="footer-group">
+            <div class="footer-title">协议</div>
+            <div class="footer-links"><a class="footer-item" title="隐私协议" href="/privacy/" draggable="false"
+                data-pjax-state="">隐私协议</a><a class="footer-item" title="Cookies" href="/cookies/" draggable="false"
+                data-pjax-state="">Cookies</a><a class="footer-item" title="版权协议" href="/copyright/" draggable="false"
+                data-pjax-state="">版权协议</a></div>
+          </div>
+          <div class="footer-group">
+            <div class="footer-title-group">
+              <div class="footer-title">友链</div><a class="random-friends-btn" id="footer-random-friends-btn"
+                href="javascript:addFriendLinksInFooter();" rel="external nofollow noreferrer" title="换一批友情链接"
+                draggable="false" data-pjax-state=""
+                style="opacity: 1; transition-duration: 0.3s; transform: rotate(360deg);"><i
+                  class="naokuofont naokuo-icon-arrow-rotate-right"></i></a>
+            </div>
+            <div class="footer-links" id="friend-links-in-footer"><a class="footer-item" href="https://naokuo.top"
+                target="_blank" rel="noopener nofollow">测试</a><a class="footer-item" href="https://tianli-blog.club"
+                target="_blank" rel="noopener nofollow">Tianli</a><a class="footer-item"
+                href="https://www.zhuangzhi.love" target="_blank" rel="noopener nofollow">琅環书生</a><a class="footer-item"
+                href="/link/">更多</a></div>
+          </div>
+        </div>
+        <p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/"
+            rel="external nofollow noreferrer" style="margin-inline:5px" data-title="博客框架为Hexo_v7.0.0"
+            title="博客框架为Hexo_v7.0.0" draggable="false"><img
+              src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg"
+              onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;"
+              data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg"
+              alt="博客框架为Hexo_v7.0.0" draggable="false" data-ll-status="loaded" class="entered loaded"></a><a
+            class="github-badge" target="_blank" href="https://docs.anheyu.com/" rel="external nofollow noreferrer"
+            style="margin-inline:5px" data-title="本站使用AnZhiYu主题_v1.6.12" title="本站使用AnZhiYu主题_v1.6.12"
+            draggable="false"><img
+              src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg"
+              onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;"
+              data-lazy-src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg"
+              alt="本站使用AnZhiYu主题_v1.6.12" draggable="false" data-ll-status="loaded" class="entered loaded"></a><a
+            class="github-badge" target="_blank" href="https://github.com/" rel="external nofollow noreferrer"
+            style="margin-inline:5px" data-title="本站项目由Github托管" title="本站项目由Github托管" draggable="false"><img
+              src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg"
+              onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;"
+              data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg"
+              alt="本站项目由Github托管" draggable="false" data-ll-status="loaded" class="entered loaded"></a><a
+            class="github-badge" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+            rel="external nofollow noreferrer" style="margin-inline:5px"
+            data-title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"
+            draggable="false"><img src="https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg"
+              onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;"
+              data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg"
+              alt="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可" draggable="false" data-ll-status="loaded"
+              class="entered loaded"></a></p>
+      </div>
+      <div id="footer-bar">
+        <div class="footer-bar-links">
+          <div class="footer-bar-left">
+            <div id="footer-bar-tips">
+              <div class="copyright">©2021 - 2024 By <a class="footer-bar-link" href="/" title="Naokuo" target="_blank"
+                  draggable="false">Naokuo</a></div>
+            </div>
+            <div id="footer-type-tips"></div>
+          </div>
+          <div class="footer-bar-right"><a class="footer-bar-link" href="/rss2.xml" title="订阅" draggable="false"
+              data-pjax-state="">订阅</a><a class="footer-bar-link" href="/statistics/" title="博客统计" draggable="false"
+              data-pjax-state="">博客统计</a><a class="footer-bar-link" target="_blank"
+              rel="noopener external nofollow noreferrer" href="https://v6.51.la/s/sHP4buyYOAZCrOM" title="51la统计"
+              draggable="false">51la统计</a><a class="footer-bar-link" target="_blank"
+              rel="noopener external nofollow noreferrer" href="https://icp.gov.moe/?keyword=20230891"
+              title="萌ICP备20230891号" draggable="false">萌ICP备20230891号</a><a class="footer-bar-link cc"
+              href="/copyright/" title="cc协议" draggable="false" data-pjax-state=""><i
+                class="naokuofont naokuo-icon-copyright-line"></i><i
+                class="naokuofont naokuo-icon-creative-commons-by-line"></i><i
+                class="naokuofont naokuo-icon-creative-commons-nc-line"></i><i
+                class="naokuofont naokuo-icon-creative-commons-nd-line"></i></a></div>
+        </div>
+      </div>
+    </footer>
   </div>
 
   <script>
