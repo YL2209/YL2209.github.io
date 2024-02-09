@@ -21,6 +21,7 @@
   --naokuo-secondbg: #f7f7f9;
   --naokuo-card-bg: #fffef9;
   --naokuo-meta-theme-color: #f7f9fe;
+  --naokuo-text: #000000;
 }
 
 [data-theme=dark] {
@@ -31,6 +32,7 @@
   --naokuo-secondbg: #21232a;
   --naokuo-card-bg: #1d1e22;
   --naokuo-meta-theme-color: #000;
+  --naokuo-text: #f7f9fe;
 }
 
 a {
@@ -169,17 +171,18 @@ main {
 .yiyan {
   width: 50%;
   margin: 0 auto;
-  color: var(--white);
+  color: var(--naokuo-text);
 }
 
 .author {
   font-size: 4.5rem;
 }
-
+/* 一言 */
 .yiyan {
   font-size: 1.5rem;
 }
 
+/* 页脚 */
 #footer {
   position: relative;
   background-image: -webkit-linear-gradient(270deg, var(--naokuo-card-bg-none) 0, var(--naokuo-card-bg) 25%);
@@ -579,6 +582,7 @@ main {
   }
 }
 
+/* 夜间粒子 */
 [data-theme=dark] #universe {
   display: block;
   position: fixed;
