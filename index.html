@@ -186,6 +186,9 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdn.cbd.int/naokuo-blog-static@1.0.7/icon/iconfont.css">
   <link rel="stylesheet" href="/css/button.css">
+  <link rel="stylesheet" href="/css/music.css">
+  <link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="all"
+    onload="this.media='all'">
   <script>
     // 本地存储（单位天）
     (e => {
@@ -368,6 +371,7 @@
       </div>
     </footer>
   </div>
+  <!-- 昼夜切换按钮 -->
   <div class="container">
     <div class="components">
       <div class="main-button">
@@ -434,6 +438,22 @@
       </div>
     </div>
   </div>
+
+  <div id="nav-music">
+    <a id="nav-music-hoverTips" onclick="naokuo.musicToggle()" accesskey="m" draggable="false" data-pjax-state="">
+      播放音乐
+    </a>
+    <div id="console-music-bg"></div>
+    <meting-js id="3067156818" server="netease" type="playlist" mutex="true" preload="none" theme="var(--naokuo-main)"
+      data-lrctype="0" order="random" volume="0.7">
+  </div>
+  <!-- 音乐 -->
+  <script>
+    var meting_api = "https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r"
+  </script>
+  <script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script>
+  <script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script>
+  <!-- 打字动画 -->
   <script src="https://npm.elemecdn.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", (function () {
@@ -452,6 +472,7 @@
   <canvas id="universe"></canvas>
   <script async="" src="https://cdn.cbd.int/naokuo-blog-static@1.0.7/dark/dark.js"></script>
   <script async="" src="/js/index.js"></script>
+  <script async="" src="/js/music.js"></script>
 </body>
 
 </html>
