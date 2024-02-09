@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/img/favicon.ico">
+  <meta name="theme-color" content="#18171d">
   <title>Naokuo Home</title>
   <style type="text/css">
     .container,
@@ -208,7 +209,35 @@
           if (!(Date.now() > a.expiry)) return a.value;
           localStorage.removeItem(e)
         }
-      }
+      },
+        e.activateDarkMode = () => {
+          document.documentElement.setAttribute("data-theme", "dark"),
+            null !== document.querySelector('meta[name="theme-color"]') && document.querySelector('meta[name="theme-color"]').setAttribute("content", "#18171d")
+        },
+        e.activateLightMode = () => {
+          document.documentElement.setAttribute("data-theme", "light"),
+            null !== document.querySelector('meta[name="theme-color"]') && document.querySelector('meta[name="theme-color"]').setAttribute("content", "#f7f9fe")
+        };
+      const t = saveToLocal.get("theme"),
+        a = window.matchMedia("(prefers-color-scheme: dark)").matches,
+        o = window.matchMedia("(prefers-color-scheme: light)").matches,
+        c = window.matchMedia("(prefers-color-scheme: no-preference)").matches,
+        n = !a && !o && !c;
+      if (void 0 === t) {
+        if (o)
+          activateLightMode();
+        else if (a)
+          activateDarkMode();
+        else if (c || n) {
+          const e = (new Date).getHours();
+          e <= 6 || e >= 18 ? activateDarkMode() : activateLightMode()
+        }
+        window.matchMedia("(prefers-color-scheme: dark)").addListener((e => {
+          void 0 === saveToLocal.get("theme") && (e.matches ? activateDarkMode() : activateLightMode())
+        }
+        ))
+      } else
+        "light" === t ? activateLightMode() : activateDarkMode();
     })(window)
   </script>
 </head>
@@ -247,8 +276,8 @@
           <a class="deal_link" href="https://www.naokuo.top/rss2.xml" title="RSS" draggable="false">
             <i class="naokuofont naokuo-icon-rss"></i>
           </a>
-          <a href="https://www.naokuo.top" class="deal_link footer_mini_img" target="_blank" rel="noopener external nofollow noreferrer"
-            title="前往博客" draggable="false">
+          <a href="https://www.naokuo.top" class="deal_link footer_mini_img" target="_blank"
+            rel="noopener external nofollow noreferrer" title="前往博客" draggable="false">
             <img class="footer_mini_logo" src="https://bu.dusays.com/2024/01/29/65b775f23039b.gif" size="50px"
               data-ll-status="loaded">
           </a>
