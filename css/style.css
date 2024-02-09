@@ -1,13 +1,13 @@
 :root {
   --animation-on: cubic-bezier(0.6, 0.1, 0, 1);
   --animation-in: cubic-bezier(0.6, 0.2, 0.25, 1);
-  --animation-ot: opacity 0.5s var(--animation-in) backwards,transform 1s var(--animation-in) backwards;
-  --animation-otf: opacity 0.5s var(--animation-in) backwards,transform 1s var(--animation-in) backwards,filter 0.7s var(--animation-in) backwards;
+  --animation-ot: opacity 0.5s var(--animation-in) backwards, transform 1s var(--animation-in) backwards;
+  --animation-otf: opacity 0.5s var(--animation-in) backwards, transform 1s var(--animation-in) backwards, filter 0.7s var(--animation-in) backwards;
   --global-font-size: 16px;
   --global-bg: #fff;
   --font-color: #4c4948;
-  --hr-border: rgba(161,172,247,0.137);
-  --hr-before-color: rgba(123,139,244,0.137);
+  --hr-border: rgba(161, 172, 247, 0.137);
+  --hr-before-color: rgba(123, 139, 244, 0.137);
   --search-bg: #f6f8fa;
   --search-input-color: #4c4948;
   --search-result-title: #4c4948;
@@ -23,17 +23,17 @@
   --btn-hover-color: #ff7242;
   --btn-color: #fff;
   --btn-bg: var(--anzhiyu-main);
-  --text-bg-hover: rgba(10,110,101,0.7);
+  --text-bg-hover: rgba(10, 110, 101, 0.7);
   --light-grey: #eee;
   --dark-grey: #cacaca;
   --white: #fff;
   --text-highlight-color: #1f2d3d;
   --blockquote-color: #6a737d;
-  --blockquote-bg: rgba(66,90,239,0.1);
+  --blockquote-bg: rgba(66, 90, 239, 0.1);
   --reward-pop: #f5f5f5;
   --toc-link-color: #666261;
-  --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.05);
-  --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.09);
+  --card-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.05);
+  --card-hover-box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.09);
   --pseudo-hover: #ff7242;
   --headline-presudo: var(--anzhiyu-fontcolor);
   --scrollbar-color: var(--anzhiyu-scrollbar);
@@ -41,16 +41,16 @@
   --anzhiyu-deep-purple: #405589;
   --anzhiyu-meta-theme-color: #f7f9fe;
   --anzhiyu-bar-background: var(--anzhiyu-main);
-  --anzhiyu-theme-op: rgba(66,89,239,0.137);
-  --anzhiyu-card-bg-none: rgba(255,255,255,0);
-  --anzhiyu-main-op-deep: var(--anzhiyu-theme-op-deep)!important;
-  --anzhiyu-gray-op: rgba(153,153,153,0.169);
+  --anzhiyu-theme-op: rgba(66, 89, 239, 0.137);
+  --anzhiyu-card-bg-none: rgba(255, 255, 255, 0);
+  --anzhiyu-main-op-deep: var(--anzhiyu-theme-op-deep) !important;
+  --anzhiyu-gray-op: rgba(153, 153, 153, 0.169);
   --anzhiyu-theme-top: var(--anzhiyu-theme);
   --anzhiyu-white: #fff;
-  --anzhiyu-white-op: rgba(255,255,255,0.2);
+  --anzhiyu-white-op: rgba(255, 255, 255, 0.2);
   --anzhiyu-black: #000;
-  --anzhiyu-black-op: rgba(0,0,0,0.2);
-  --anzhiyu-none: rgba(0,0,0,0);
+  --anzhiyu-black-op: rgba(0, 0, 0, 0.2);
+  --anzhiyu-none: rgba(0, 0, 0, 0);
   --anzhiyu-gray: #999;
   --anzhiyu-yellow: #ffc93e;
   --anzhiyu-orange: #e38100;
@@ -62,14 +62,14 @@
   --anzhiyu-main-op: var(--anzhiyu-theme-op);
   --anzhiyu-shadow-theme: 0 8px 12px -3px var(--anzhiyu-theme-op);
   --anzhiyu-shadow-main: 0 8px 12px -3px var(--anzhiyu-main-op);
-  --anzhiyu-shadow-blue: 0 8px 12px -3px rgba(40,109,234,0.2);
-  --anzhiyu-shadow-white: 0 8px 12px -3px rgba(255,255,255,0.2);
-  --anzhiyu-shadow-black: 0 0 12px 4px rgba(0,0,0,0.05);
-  --anzhiyu-shadow-yellow: 0px 38px 77px -26px rgba(255,201,62,0.12);
-  --anzhiyu-shadow-red: 0 8px 12px -3px rgba(238,125,121,0.212);
-  --anzhiyu-shadow-green: 0 8px 12px -3px rgba(135,238,121,0.212);
-  --anzhiyu-shadow-border: 0 8px 16px -4px rgba(44,45,48,0.047);
-  --anzhiyu-shadow-blackdeep: 0 2px 16px -3px rgba(0,0,0,0.15);
+  --anzhiyu-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+  --anzhiyu-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+  --anzhiyu-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+  --anzhiyu-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+  --anzhiyu-shadow-red: 0 8px 12px -3px rgba(238, 125, 121, 0.212);
+  --anzhiyu-shadow-green: 0 8px 12px -3px rgba(135, 238, 121, 0.212);
+  --anzhiyu-shadow-border: 0 8px 16px -4px rgba(44, 45, 48, 0.047);
+  --anzhiyu-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, 0.15);
   --anzhiyu-logo-color: linear-gradient(215deg, #4584ff 0%, #cf0db9 100%);
   --anzhiyu-code-stress: var(--anzhiyu-main);
   --style-border: 1px solid var(--anzhiyu-card-border);
@@ -81,7 +81,7 @@
   --style-border-none: 1px solid transparent;
   --style-border-deep-ash: 1px solid #d0d7de;
   --style-border-hover-always: 1px solid var(--anzhiyu-main);
-  --anzhiyu-main-none: rgba(184,184,184,0)!important;
+  --anzhiyu-main-none: rgba(184, 184, 184, 0) !important;
   --anzhiyu-wihite-font: #fff
 }
 
@@ -193,7 +193,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: PingFang SC,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-family: PingFang SC, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: transparent
 }
@@ -239,11 +239,11 @@ html {
 
 @keyframes fadeOut {
   0% {
-      opacity: 1
+    opacity: 1
   }
 
   100% {
-      opacity: 0
+    opacity: 0
   }
 }
 
@@ -260,6 +260,12 @@ body {
 
 main {
   display: block
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
 }
 
 #body-wrap {
@@ -284,7 +290,6 @@ main {
   justify-content: space-between
 }
 
-[data-theme=dark] audio,
 [data-theme=dark] video {
   filter: brightness(.7);
 }
@@ -302,29 +307,17 @@ main {
   display: none;
 }
 
-/*? 加载盒 */
-/* #loading-box {} */
-/* #loading-box>img {} */
-
 /*? content */
 .content {
   width: 80%;
   height: auto;
   margin: 0 auto;
-  /* background-color: var(--card-background-color); */
-  /* box-shadow: var(--card-box-shadow); */
   text-align: center;
   line-height: 2;
-  /* border: 1px solid #000; */
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  /* backdrop-filter: blur(2px); */
 }
-
-/* .content:hover {
-  box-shadow: var(--card-box-shadow-hover);
-} */
 
 .author-avatar {
   width: 180px;
@@ -417,7 +410,7 @@ main {
   background: -ms-linear-gradient(270deg, var(--anzhiyu-card-bg-none) 0, var(--anzhiyu-card-bg) 25%);
   background: linear-gradient(180deg, var(--anzhiyu-card-bg-none) 0, var(--anzhiyu-card-bg) 25%);
   background-attachment: scroll;
-  background-position: bottom;
+  /* background-position: bottom; */
   background-size: cover
 }
 
