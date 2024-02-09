@@ -432,7 +432,8 @@ main {
   -o-transition: cubic-bezier(0, 0, 0, 1.29) .5s;
   -ms-transition: cubic-bezier(0, 0, 0, 1.29) .5s;
   transition: cubic-bezier(0, 0, 0, 1.29) .5s;
-  -webkit-user-select: none
+  -webkit-user-select: none;
+  user-select: none
 }
 
 @media screen and (max-width: 768px) {
