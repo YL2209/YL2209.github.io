@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-CN" data-theme="dark">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Naokuo Home</title>
   <style type="text/css">
+    .container,
     #blog-container {
       -webkit-animation: naokuo_scale 2.2s cubic-bezier(0.6, 0.1, 0.25, 1) 0.5s 1 backwards;
       -moz-animation: naokuo_scale 2.2s cubic-bezier(0.6, 0.1, 0.25, 1) 0.5s 1 backwards;
@@ -22,6 +24,10 @@
       object-fit: cover;
       z-index: 0;
       background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKUlEQVQImU3IMREAIAgAwJfNkQCEsH8cijjpMf6vnXlQaIiJFx+omEBfmqIEZLe2jzcAAAAASUVORK5CYII=");
+    }
+
+    [data-theme=dark] video {
+      filter: brightness(.7);
     }
 
     #naokuo-home_bg {
@@ -361,7 +367,7 @@
       </div>
     </footer>
   </div>
-  <div class="container" style="font-size: 0.9px">
+  <div class="container">
     <div class="components">
       <div class="main-button">
         <div class="moon"></div>

@@ -21,7 +21,6 @@
   --naokuo-secondbg: #f7f7f9;
   --naokuo-card-bg: #fffef9;
   --naokuo-meta-theme-color: #f7f9fe;
-  --naokuo-text: #000000;
 }
 
 [data-theme=dark] {
@@ -32,7 +31,6 @@
   --naokuo-secondbg: #21232a;
   --naokuo-card-bg: #1d1e22;
   --naokuo-meta-theme-color: #000;
-  --naokuo-text: #f7f9fe;
 }
 
 a {
@@ -41,25 +39,6 @@ a {
 
 ul {
   list-style-type: none;
-}
-
-@font-face {
-  font-family: alimm2024;
-  font-display: swap;
-  src: url(https://font.onmicrosoft.cn/naokuo-blog@1.0.17/fontsdest/AlimamaDongFangDaKai-Regular.woff2) format("woff2"),
-    url(https://font.onmicrosoft.cn/naokuo-blog@1.0.17/fontsdest/AlimamaDongFangDaKai-Regular.woff) format("woff");
-  font-weight: 400
-}
-
-body {
-  position: relative;
-  min-height: 100%;
-  background: var(--global-bg);
-  color: var(--font-color);
-  font-size: var(--global-font-size);
-  font-family: alimm2024, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  line-height: 2;
-  -webkit-tap-highlight-color: transparent
 }
 
 ::-webkit-scrollbar {
@@ -107,6 +86,25 @@ main {
   box-sizing: border-box
 }
 
+@font-face {
+  font-family: alimm2024;
+  font-display: swap;
+  src: url(https://font.onmicrosoft.cn/naokuo-blog@1.0.17/fontsdest/AlimamaDongFangDaKai-Regular.woff2) format("woff2"),
+    url(https://font.onmicrosoft.cn/naokuo-blog@1.0.17/fontsdest/AlimamaDongFangDaKai-Regular.woff) format("woff");
+  font-weight: 400
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  background: var(--global-bg);
+  color: var(--font-color);
+  font-size: var(--global-font-size);
+  font-family: alimm2024, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height: 2;
+  -webkit-tap-highlight-color: transparent
+}
+
 #body-wrap {
   display: -webkit-box;
   display: -moz-box;
@@ -129,10 +127,7 @@ main {
   justify-content: space-between
 }
 
-[data-theme=dark] video {
-  filter: brightness(.7);
-}
-
+/* 信息 */
 .content {
   width: 80%;
   height: auto;
@@ -144,6 +139,7 @@ main {
   flex-direction: column;
 }
 
+/* 头像 */
 .author-avatar {
   width: 180px;
   height: 180px;
@@ -167,11 +163,12 @@ main {
   transform: scale(1.1);
 }
 
+/* 个人信息 */
 .author,
 .yiyan {
   width: 50%;
   margin: 0 auto;
-  color: var(--naokuo-text);
+  color: var(--naokuo-fontcolor);
 }
 
 .author {
