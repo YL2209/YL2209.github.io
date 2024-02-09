@@ -1,7 +1,8 @@
 try {
-  if (saveToLocal.get("theme") === "dark") {
+  const Theme = saveToLocal.get("theme")
+  if (Theme === "dark") {
     document.documentElement.setAttribute("data-theme", "dark");
-  } else {
+  } else if (Theme === "light") {
     document.documentElement.setAttribute("data-theme", "light");
   }
   function darkNuuton() {
@@ -16,6 +17,6 @@ try {
   }
   darkNuuton()
 } catch (error) {
-console.log(error)
+  console.log(error)
 }
 
