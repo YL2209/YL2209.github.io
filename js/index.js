@@ -5,6 +5,7 @@ try {
   } else if (Theme === "light") {
     document.documentElement.setAttribute("data-theme", "light");
   }
+  // 昼夜切换
   function darkNuuton() {
     const BUTTON = document.querySelector(".components");
     const TOGGLE = () => {
