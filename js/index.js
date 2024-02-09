@@ -6,10 +6,11 @@ document.addEventListener("DOMContentLoaded", (function () {
     document.documentElement.setAttribute("data-theme", willChangeMode);
     saveToLocal.set("theme", willChangeMode, 2);
   };
+  BUTTON.addEventListener("click", TOGGLE);
+  
   if (saveToLocal.get("theme") === "dark") {
     document.documentElement.setAttribute("data-theme", "dark");
   } else {
     document.documentElement.setAttribute("data-theme", "light");
   }
-  BUTTON.addEventListener("click", TOGGLE);
 }));
