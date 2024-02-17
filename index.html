@@ -40,7 +40,7 @@
       top: 0;
       left: 0;
       overflow: hidden;
-      display: block;
+      display: none;
       -webkit-animation: naokuo_blur-to-clear 2.5s cubic-bezier(0.6, 0.25, 0.25, 1) 0s 1 backwards, naokuo_scale 2.2s cubic-bezier(0.6, 0.1, 0.25, 1) 0.5s 1 backwards;
       -moz-animation: naokuo_blur-to-clear 2.5s cubic-bezier(0.6, 0.25, 0.25, 1) 0s 1 backwards, naokuo_scale 2.2s cubic-bezier(0.6, 0.1, 0.25, 1) 0.5s 1 backwards;
       -o-animation: naokuo_blur-to-clear 2.5s cubic-bezier(0.6, 0.25, 0.25, 1) 0s 1 backwards, naokuo_scale 2.2s cubic-bezier(0.6, 0.1, 0.25, 1) 0.5s 1 backwards;
@@ -188,6 +188,7 @@
   <link rel="stylesheet" href="https://cdn.cbd.int/naokuo-blog-static@1.0.7/icon/iconfont.css">
   <link rel="stylesheet" href="/css/button.css">
   <link rel="stylesheet" href="/css/music.css">
+  <link rel="stylesheet" href="/css/author.css">
   <link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="all"
     onload="this.media='all'">
   <script>
@@ -253,27 +254,35 @@
   </script>
   <!-- 51la -->
   <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-  <script>LA.init({id:"3Goz3y7WWLhiDpWN",ck:"3Goz3y7WWLhiDpWN"})</script>
+  <script>LA.init({ id: "3Goz3y7WWLhiDpWN", ck: "3Goz3y7WWLhiDpWN" })</script>
 </head>
 
 <body>
   <div id="body-wrap">
     <header>
-      <div id="naokuo-home_bg">
-        <video class="Bg_Video" width="100%" height="100%" style="object-fit:cover;z-index:0" preload="auto" autoplay=""
-          loop="" muted="" playsinline="" webkit-playsinline="" x5-playsinline="" x5-video-player-type="h5"
-          x5-video-player-fullscreen="" x5-video-orientation="portraint" x-webkit-airplay="allow">
-          <source src="https://cdn.cbd.int/naokuo-media@1.0.3/MP4/2024-01-19_5.mp4" type="video/mp4">
-        </video>
-      </div>
+      <div id="naokuo-home_bg" style="display: block;"></div>
     </header>
 
     <main id="blog-container">
       <div class="content">
-        <div class="author-avatar">
-          <img src="https://bu.dusays.com/2024/01/27/65b4c9bd4ad17.png" alt="avatar" class="avatar">
+        <div class="author-box">
+          <div class="author-tag-left">
+            <span class="author-tag">🤖️ 数码科技爱好者</span>
+            <span class="author-tag">🔍 分享与热心帮助</span>
+            <span class="author-tag">🏠 智能家居小能手</span>
+            <span class="author-tag">🔨 设计开发一条龙</span>
+          </div>
+          <div class="author-img">
+            <img src="https://bu.dusays.com/2024/01/27/65b4c9bd4ad17.png" alt="avatar" data-ll-status="loaded">
+          </div>
+          <div class="author-tag-right">
+            <span class="author-tag">专修交互与设计 🤝</span>
+            <span class="author-tag">脚踏实地行动派 🏃</span>
+            <span class="author-tag">团队小组发动机 🧱</span>
+            <span class="author-tag">壮汉人狠话不多 💢</span>
+          </div>
         </div>
-        <div class="author">NaoKuo</div>
+        <span class="author">NaoKuo</span>
         <div class="yiyan">
           <span id="subtitle"></span>
         </div>

@@ -36,6 +36,7 @@
   --naokuo-main: #f2b94b;
   --naokuo-theme-op: #f2b94b23;
   --naokuo-theme-op-deep: #f2b94bdd;
+  --font-color: rgba(255, 255, 255, 0.7);
 }
 
 a {
@@ -144,37 +145,11 @@ body {
   flex-direction: column;
 }
 
-/* 头像 */
-.author-avatar {
-  width: 180px;
-  height: 180px;
-  margin: 0 auto;
-}
-
-.avatar {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  margin: 0 auto;
-  border: 10px solid var(--white);
-  -webkit-transition: all .6s ease 0s;
-  -moz-transition: all .6s ease 0s;
-  -o-transition: all .6s ease 0s;
-  -ms-transition: all .6s ease 0s;
-  transition: all .6s ease 0s;
-}
-
-.avatar:hover {
-  transform: scale(1.1);
-}
-
 /* 个人信息 */
-.author,
+/* .author,
 .yiyan {
-  width: 50%;
-  margin: 0 auto;
   color: var(--naokuo-fontcolor);
-}
+} */
 
 .author {
   font-size: 4.5rem;
