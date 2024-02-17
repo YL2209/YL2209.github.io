@@ -205,7 +205,7 @@
   transition: 1s;
   width: 30px;
   height: 30px;
-  background: var(--naokuo-green);
+  background: var(--naokuo-main);
   position: absolute;
   border-radius: 50%;
   border: 5px solid var(--white);
